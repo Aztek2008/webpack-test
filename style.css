@@ -6,6 +6,8 @@ body {
   display: grid;
   display: flex;
   transform: translate(50%);
+  justify-content: center;
+  flex-direction: column;
   background-color: rgba(255, 99, 71, .3);
   color: black;
 }
