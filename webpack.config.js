@@ -35,8 +35,12 @@ module.exports = (env) =>
             }, ],
           },
           {
+            test: /\.html$/i,
+            use: 'html-loader',
+          },
+          {
             test: /\.hbs$/,
-            loader: "handlebars-loader"
+            use: "handlebars-loader"
           }
         ],
       },

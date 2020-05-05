@@ -1,11 +1,10 @@
 * {
   box-sizing: border-box;
+  font-family: 'Roboto';
+  text-align: center;
 }
 
 body {
-  display: grid;
-  display: flex;
-  transform: translate(50%);
-  background-color: rgba(255, 99, 71, .3);
-  color: black;
+  background-color: #fff;
+  color: #212121;
 }

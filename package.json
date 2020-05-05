@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env.mode development",
-    "build": "webpack --env.mode production"
+    "build": "webpack --env.mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/Aztek2008/webpack-test/issues"
   },
-  "homepage": "https://github.com/Aztek2008/webpack-test#readme",
+  "homepage": "https://Aztek2008.github.io/webpack-test",
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@babel/plugin-proposal-class-properties": "^7.8.3",
@@ -28,7 +30,9 @@
     "css-loader": "^3.5.3",
     "file-loader": "^6.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
+    "gh-pages": "^2.2.0",
     "handlebars-loader": "^1.7.1",
+    "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "mini-css-extract-plugin": "^0.9.0",
     "postcss-loader": "^3.0.0",
