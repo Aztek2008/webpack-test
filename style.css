@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: roboto;
+  font-family: 'Roboto';
 }
 
 body {
@@ -8,7 +8,7 @@ body {
   display: flex;
   transform: translate(50%);
   justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
   background-color: rgba(255, 99, 71, .1);
   color: black;
 }
