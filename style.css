@@ -1,12 +1,1 @@
-* {
-  box-sizing: border-box;
-  font-family: 'Roboto';
-  text-align: center;
-}
-
-body {
-  background-color: #fff;
-  color: #212121;
-}
-
-/*# sourceMappingURL=style.css.map*/
+*{box-sizing:border-box;font-family:Roboto;text-align:center}body{background-color:#fff;color:#212121}
